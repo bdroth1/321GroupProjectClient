@@ -1,0 +1,392 @@
+/* All pages */
+.centered-logo{
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.centered-logo-inventory{
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;    
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-bottom: 150px;
+}
+  
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color:#C0C0C0;
+    padding: 5px;
+    color:#0A0708;
+}
+   
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.footer-logo{
+    width: 100px;
+    margin-left: 40px;
+}
+
+/* Welcome and Log In */
+.welcome-background {
+    background-color: #0A0708;
+    color: white;
+}
+
+.centered-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0;
+}
+
+#button-placement{
+    padding: 0 150px;
+    margin-top: -150px;
+    display: flex;
+}
+
+.logsign-container{
+    justify-content: center;
+    padding: 250px 75px;
+}
+
+
+/* Main Page = index.html */
+#home-container{
+    background-color: #C0C0C0;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1607310073276-9f48dec47340?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: 50% 100%;
+    padding: 25px;
+    filter: grayscale(90%)
+}
+
+#homeImage {
+    background-image: url('images/image.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: 50px;
+    max-width: 500px;
+    height: 200px;
+}
+
+#subhome-container {
+    background-color: #C0C0C0;
+    color: #4E4F50;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 200px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+#homeprod-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#homeprod-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+hr.homeline{
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    border: none;
+    height: 2px;
+    background-color: #0A0708;
+}
+
+#productbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+/* Products Page = products.html */
+#products-container {
+    background-color: #C0C0C0;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#subproducts-container {
+    background-color: #4E4F50;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#allprod-display{
+    padding: 80px;
+}
+
+.card {
+    text-align: center;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+    size: 80%;
+}
+
+#productList {
+
+}
+
+/* Product Specific Pages */
+#oneproduct{
+    background-color: #C0C0C0;
+    color: #0A0708;
+    height: 500px;
+}
+
+#product-details{
+    background-color: white;
+    color: #0A0708;
+    height: fit-content;
+}
+
+#detail-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#detail-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moredetail-text{
+    display: flex;
+    margin-left: 220px;
+    justify-content: left;
+}
+
+/* Contact Us Page = contact.html*/
+.contact-background {
+    background-color: #0A0708;
+}
+
+.form-label {
+    color: white;
+}
+
+#contact-container{
+    padding: 150px;
+}
+
+/* Account Page = account.html*/
+#account-container {
+    padding: 100px;
+}
+
+#account-page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #E9EAEC;
+}
+  
+#account-content-wrap {
+    padding-bottom: 150px;
+}
+
+#acc-ord-container {
+    background-color: #C0C0C0;
+    max-width: 700px;
+    float: left;
+}
+
+#acc-det-container {
+    background-color: #C0C0C0;
+    max-width: 350px;
+    float: left;
+}
+
+/* Receipt Page = receipt.html*/
+.receipt-background {
+    background-color: #0A0708;
+}
+
+.centered-logo-account {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+
+#receipt-container {
+    margin-top: 120px;
+    padding: 30px;
+    background-color: white;
+    max-height: fit-content;
+    max-width: 1100px;
+}
+
+#receipt-detail-text {
+    color: #4E4F50;
+}
+
+/* Cart Page */
+#cart-body{
+    background-color: #C0C0C0;
+}
+
+/* Checkout Page */
+#checkout-main{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #E9EAEC;
+    color: #0A0708;
+}
+
+#checkout-body{
+    background-color: #E9EAEC;
+    margin-left: 110px;
+    color: #0A0708;
+}
+
+#checkout-page-container{
+    position: relative;
+    min-height: 90vh;
+    background-color: #E9EAEC;
+    color: #0A0708;
+}
+
+/* Employee Side */
+.employee-header{
+    background-color: #C0C0C0;
+
+
+}
+
+.order-header {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+}
+.ordhead-1 {
+    float: left;
+}
+
+.ordhead-2 {
+    float:right;
+    text-align: right;
+}
+
+hr.empline{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    height: 2px;
+    background-color: #0A0708;
+}
+
+.input-group{
+    width: 75%;
+}
+
+#filterbtn{
+    width: 80px;
+    padding: 5px;
+}
+
+.ordgroup2{
+    margin-right: 33px;
+    margin-left: 23px;
+    padding: 10px;
+}
+
+#inventory-wrapper {
+    margin-top: 80px;
+    max-height: 500px;
+    overflow: auto;
+    max-width: 3000px;
+}
+
+.table{
+    text-align: center;
+}
+
+#orderdets-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+hr.orderline{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    height: 2px;
+    background-color: #0A0708;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link2{
+    color: white;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/styles/index.css">
+    <title>Log In</title>
+</head>
+<body class="welcome-background">
+    <div class="logsign-container">
+        <div class="row">
+          <div class="col-5">
+              <form name="form-login">
+                <h2 class="display-3">LOGIN</h2>
+                  <div class="login">
+                    <label for="userName">Email</label>
+                    <input type="email" class="form-control" id="userName" placeholder="Enter email" required>
+                    <label for="userPw">Password</label>
+                    <input type="password" class="form-control" id="userPw" placeholder="Password" required>
+                  </div>
+                  <br>
+                  <button id="login-btn" type="button" class="btn btn-light" onclick="check()">Submit</button>
+                </form>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-5">
+              <form name="form-signup">
+                <h2 class="display-3">SIGN UP</h2>
+                <div class="signup">
+                    <label for="fullname">Full Name</label>
+                    <input type="fullname" class="form-control" id="fullname" placeholder="Jane Doe" required>
+                    <label for="nameuser">Email</label>
+                    <input type="email" class="form-control" id="nameuser" placeholder="Enter email" required>
+                    <label for="pwUser">Password</label>
+                    <input type="password" class="form-control" id="pwUser" placeholder="Password" required>
+                </div>
+                <br>
+                <button id="register-btn" type="submit" class="btn btn-light" onclick="store()">Register</button>
+              </form>
+          </div>
+        </div>
+    </div>
+    <script src="./resources/scripts/login.js" type="text/JavaScript"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
